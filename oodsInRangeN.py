@@ -6,7 +6,7 @@ for i in range(1,n+1):
         l.append(i)
 print(l)
 
-# Listr comprehension
+# List comprehension
 print([x for x in range(1,n+1) if x%2!=0])
 
 # saving one computation
