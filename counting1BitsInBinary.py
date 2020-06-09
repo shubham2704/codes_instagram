@@ -1,7 +1,8 @@
 d  = 1000
 
 b = bin(d).replace('0b','')
-print(hex(int(b)))
+h = hex(int(b))
+
 c = 0
 for i in b:
     if i=='1':

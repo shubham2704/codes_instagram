@@ -5,7 +5,3 @@ for x in range(len(l)):
 
 for x,y in enumerate(l):
     print(x,y)
-
-# list compherision
-
-print([x,y for x,y in enumerate(l)])
