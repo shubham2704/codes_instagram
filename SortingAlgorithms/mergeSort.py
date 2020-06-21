@@ -1,3 +1,8 @@
+"""
+Description 
+Merge sort first divides the array into equal halves and then combines them in a sorted manner.
+"""
+
 def merge_sort(l):
     if len(l) <= 1:
         return l
